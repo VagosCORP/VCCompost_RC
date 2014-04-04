@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.vagoscorp.vccompost.rc.LayoutRCController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Label layoutX="13.0" layoutY="14.0" text="Posición en X" />
+    <Label layoutX="14.0" layoutY="49.0" text="Posición en Y" />
+    <TextArea fx:id="PosX" layoutX="102.0" layoutY="11.0" prefHeight="26.0" prefWidth="200.0" wrapText="true" />
+    <TextArea fx:id="PosY" layoutX="102.0" layoutY="46.0" prefHeight="26.0" prefWidth="200.0" wrapText="true" />
+  </children>
+</AnchorPane>
