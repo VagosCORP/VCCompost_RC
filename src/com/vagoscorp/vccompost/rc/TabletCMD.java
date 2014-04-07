@@ -34,10 +34,14 @@ public class TabletCMD implements OnComunicationListener{
 
 			@Override
 			public void onConnectionstablished() {
-//				float xval = (float)((float)xDeseado - limX) / ex;
-//				float yval = (float)((float)yDeseado - limY) / ey;
+//				float xval = (float)((float)xDeseado - limX) / factorx;
+//				float yval = (float)((float)yDeseado - limY) / factory;
+//				float zval = (float)((float)zDeseado - limZ) / factorz;
+//				float aval = (float)aDeseado;
 //				comunic.enviar("X=" + Float.toString(xval) +
-//						"=Y=" + Float.toString(yval) + "=/");
+//						      "=Y=" + Float.toString(yval) + 
+//							  "=Z=" + Float.toString(zval) + 
+//				              "=A=" + Float.toString(aval) + "=/");
 				if(ordenrcv != null)
 					ordenrcv.conectado();
 			}

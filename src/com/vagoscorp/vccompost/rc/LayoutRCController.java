@@ -26,6 +26,8 @@ public class LayoutRCController implements Initializable {
 //				func de 0-1000 a valores reales:
 //				x = (float)(factorX*Float.parseFloat(vals[1])) + limX;
 //				y = (float)(factorY*Float.parseFloat(vals[3])) + limY;
+//				z = (float)(factorZ*Float.parseFloat(vals[3])) + limZ;
+//				a = (float)Math.toRadians(Float.parseFloat(vals[3]));
 //				Mueve tu maquina!
 			}
 			
