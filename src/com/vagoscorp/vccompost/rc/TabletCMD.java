@@ -15,7 +15,7 @@ public class TabletCMD implements OnComunicationListener{
 	
 	public interface OrdenRecibida {
 		public void conectado();
-		public void mover_a(float x, float y);
+		public void mover_a(float x, float y, float z, float a);
 		public void desconectado();
 	}
 	
@@ -65,8 +65,10 @@ public class TabletCMD implements OnComunicationListener{
 			String[] vals = tarea.split("=");
 			float x = Float.parseFloat(vals[1]);
 			float y = Float.parseFloat(vals[3]);
+			float z = Float.parseFloat(vals[5]);
+			float a = Float.parseFloat(vals[7]);
 			if(ordenrcv != null)
-				ordenrcv.mover_a(x, y);
+				ordenrcv.mover_a(x, y, z, a);
 			tarea = "";
 		}
 	}

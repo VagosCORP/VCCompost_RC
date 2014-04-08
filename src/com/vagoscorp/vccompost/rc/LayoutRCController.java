@@ -22,7 +22,7 @@ public class LayoutRCController implements Initializable {
 		remoto.asignarListener(new OrdenRecibida() {
 			
 			@Override
-			public void mover_a(float x, float y) {
+			public void mover_a(float x, float y, float z, float a) {
 //				func de 0-1000 a valores reales:
 //				x = (float)(factorX*Float.parseFloat(vals[1])) + limX;
 //				y = (float)(factorY*Float.parseFloat(vals[3])) + limY;
