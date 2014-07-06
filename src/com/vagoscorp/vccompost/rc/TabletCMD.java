@@ -1,8 +1,8 @@
 package com.vagoscorp.vccompost.rc;
 
-import libraries.vagoscorp.comunication.Eventos.OnComunicationListener;
-import libraries.vagoscorp.comunication.Eventos.OnConnectionListener;
-import libraries.vagoscorp.comunication.fx.Comunic;
+import vclibs.communication.Eventos.OnComunicationListener;
+import vclibs.communication.Eventos.OnConnectionListener;
+import vclibs.communication.javafx.Comunic;
 
 public class TabletCMD implements OnComunicationListener{
 
