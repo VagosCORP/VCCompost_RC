@@ -1,4 +1,4 @@
-package com.vagoscorp.vccompost.rc;
+package vccompost.rc;
 
 import vclibs.communication.Eventos.OnComunicationListener;
 import vclibs.communication.Eventos.OnConnectionListener;

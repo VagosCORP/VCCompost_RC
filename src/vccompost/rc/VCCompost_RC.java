@@ -1,4 +1,4 @@
-package com.vagoscorp.vccompost.rc;
+package vccompost.rc;
 	
 import javafx.application.Application;
 import javafx.stage.Stage;

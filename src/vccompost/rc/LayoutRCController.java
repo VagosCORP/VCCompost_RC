@@ -1,13 +1,12 @@
-package com.vagoscorp.vccompost.rc;
+package vccompost.rc;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import vccompost.rc.TabletCMD.OrdenRecibida;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TextArea;
-
-import com.vagoscorp.vccompost.rc.TabletCMD.OrdenRecibida;
 
 public class LayoutRCController implements Initializable {
 
